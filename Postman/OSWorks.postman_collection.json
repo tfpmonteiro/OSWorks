@@ -1,0 +1,470 @@
+{
+	"id": "40d6d827-e47b-f321-7b05-460228191228",
+	"name": "OSWorks",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "clientes",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"order": [
+				"c45b5672-1b74-6674-6b29-9ce78b135306",
+				"56c9bdf9-f49b-9b8d-eb64-18f6a38789d3",
+				"4992e4c3-8f0b-bee9-87e8-7f349e6977f2",
+				"b3d50eab-f39e-0c35-724e-28abcf7dd411",
+				"bf4ce6ff-bab8-18f8-6f55-31e9504496bc"
+			],
+			"owner": "9752706",
+			"folders_order": [],
+			"id": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd"
+		},
+		{
+			"name": "comentario",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"order": [
+				"26dd637f-72f1-224f-ad29-0378cf6935e7",
+				"c4b14415-c30e-62e9-7986-6350d7dcb7c5"
+			],
+			"owner": "9752706",
+			"folders_order": [],
+			"id": "b719b418-b88b-f23d-8d0f-83010b600ff5"
+		},
+		{
+			"name": "ordem de serviço",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"order": [
+				"4c24187c-81af-8785-f831-e2b1ac9f0838",
+				"2dd202e6-6e27-c4be-d53a-8cf1f689bf61",
+				"61146a07-8671-bf1b-6d54-2b79193555fd",
+				"bfead3e3-5666-5cbf-b64b-c21bcea8f236",
+				"6cc53a94-280c-0157-4cce-48c189668a42"
+			],
+			"owner": "9752706",
+			"folders_order": [],
+			"id": "9b24bd13-3373-ab2b-df06-d49ef1b2e1e5"
+		}
+	],
+	"folders_order": [
+		"b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+		"9b24bd13-3373-ab2b-df06-d49ef1b2e1e5",
+		"b719b418-b88b-f23d-8d0f-83010b600ff5"
+	],
+	"timestamp": 1587864402126,
+	"owner": "9752706",
+	"public": false,
+	"requests": [
+		{
+			"id": "26dd637f-72f1-224f-ad29-0378cf6935e7",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico/35/comentarios",
+			"folder": "9b24bd13-3373-ab2b-df06-d49ef1b2e1e5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587933562323,
+			"name": "cadastrar",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{\n\t\"descricao\": \"Formatação concluída com sucesso.\"\n}"
+		},
+		{
+			"id": "2dd202e6-6e27-c4be-d53a-8cf1f689bf61",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico/50/finalizar",
+			"folder": "9b24bd13-3373-ab2b-df06-d49ef1b2e1e5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587934938177,
+			"name": "finalizar",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{ }"
+		},
+		{
+			"id": "4992e4c3-8f0b-bee9-87e8-7f349e6977f2",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/clientes",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587933566675,
+			"name": "cadastrar",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"Vicente Monteiro\",\n\t\"email\": \"vicente@gmail.com\",\n\t\"telefone\": \"55 9900-7485\"\n}"
+		},
+		{
+			"id": "4c24187c-81af-8785-f831-e2b1ac9f0838",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587933565831,
+			"name": "cadastrar os",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{\n\t\"cliente\": {\n\t\t\"id\": 1\n\t},\n\t\"descricao\": \"Formatação\",\n\t\"preco\": 75.00\n}"
+		},
+		{
+			"id": "56c9bdf9-f49b-9b8d-eb64-18f6a38789d3",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/clientes/25",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587873941627,
+			"name": "listarPorId",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": []
+		},
+		{
+			"id": "61146a07-8671-bf1b-6d54-2b79193555fd",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico/2/cancelar",
+			"folder": "9b24bd13-3373-ab2b-df06-d49ef1b2e1e5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587934939938,
+			"name": "cancelar",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{ }"
+		},
+		{
+			"id": "6cc53a94-280c-0157-4cce-48c189668a42",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico/1",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587933564637,
+			"name": "listarPorId",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": []
+		},
+		{
+			"id": "b3d50eab-f39e-0c35-724e-28abcf7dd411",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/clientes/3",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587874037870,
+			"name": "excluir",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "bf4ce6ff-bab8-18f8-6f55-31e9504496bc",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/clientes/5",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587925902407,
+			"name": "atualizar",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"Amilton Monteiro\",\n\t\"email\": \"amilton@gmail.com\",\n\t\"telefone\": \"44 9999-0547\"\n}"
+		},
+		{
+			"id": "bfead3e3-5666-5cbf-b64b-c21bcea8f236",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico",
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587933563759,
+			"name": "listar todos",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": []
+		},
+		{
+			"id": "c45b5672-1b74-6674-6b29-9ce78b135306",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/clientes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"data": null,
+			"dataMode": "params",
+			"name": "listar todos",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1587872533374,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "b2186d3b-87e6-7e21-4e6c-63a744cb8abd"
+		},
+		{
+			"id": "c4b14415-c30e-62e9-7986-6350d7dcb7c5",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/ordens-servico/18/comentarios",
+			"folder": "9b24bd13-3373-ab2b-df06-d49ef1b2e1e5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587934935371,
+			"name": "listar todos",
+			"description": "",
+			"collectionId": "40d6d827-e47b-f321-7b05-460228191228",
+			"responses": []
+		}
+	]
+}
