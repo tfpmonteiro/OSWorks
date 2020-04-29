@@ -1,5 +1,6 @@
 package com.tfpmonteiro.osworks.domain.service;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,9 @@ public class ClienteService {
 
 	@Autowired
 	private ClienteRepository clienteRepository;
+	
+	@Autowired
+	private ModelMapper modelMapper;
 	
 	public Cliente salvar(Cliente cliente) {
 		Cliente clienteExistente = clienteRepository.findByEmail(cliente.getEmail());
